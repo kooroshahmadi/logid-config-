@@ -28,14 +28,14 @@ Below are the key codes used in this configuration. These follow the Linux input
 - `KEY_TAB`: Simulate Tab key.
 - `KEY_ESC`: Escape key.
 
-For a full list of available key names, extract from Source: Check the input-event-codes.h file in the Linux kernel source (typically in /usr/include/linux).
+For a full list of available key names, extract from Source: Check the input-event-codes.h file in the Linux kernel source (typically in `/usr/include/linux`).
 
 ## How to Use
 1. Install **logiops** following the [official guide](https://github.com/PixlOne/logiops).
 2. Copy the `logid.cfg` file to the configuration directory:
-    '''sudo cp logid.cfg /etc/logid.cfg'''
+    `sudo cp logid.cfg /etc/logid.cfg`
 3. Restart the logid service:
-    '''sudo systemctl restart logid'''
+    `sudo systemctl restart logid`
 ## Customization
 Feel free to edit 'logid.cfg' to suit your preferences. Refer to the comments in the configuration file for guidance.
 
