@@ -28,7 +28,7 @@ Below are the key codes used in this configuration. These follow the Linux input
 - `KEY_TAB`: Simulate Tab key.
 - `KEY_ESC`: Escape key.
 
-For a full list of available key names, refer to the [Linux Input Documentation](https://www.kernel.org/doc/html/latest/input/input.html).
+For a full list of available key names, extract from Source: Check the input-event-codes.h file in the Linux kernel source (typically in /usr/include/linux).
 
 ## How to Use
 1. Install **logiops** following the [official guide](https://github.com/PixlOne/logiops).
